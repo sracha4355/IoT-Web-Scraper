@@ -35,24 +35,6 @@ def load_driver(service) -> webdriver.Chrome:
 
     return webdriver.Chrome(service=service, options=options)
 
-def extract_text_from_iotforall_article(link, driver):
-    driver.get(link)
-    time.sleep(1)
-    bs4 = BeautifulSoup(driver.page_source, 'html.parser')
-    headers, paragraphs = [], []
-    for paragraph in bs4.find_all('p'):
-        paragraphs.append(paragraph.text)
-
-    for header in bs4.find_all('h2', class_='wp-block-heading'):
-        headers.append(header.text)
-        
-    title = bs4.find('h1').text
-    return {
-        'headers': headers,
-        'paragraphs': paragraphs,
-        'title': title
-    }
-   
 driver = load_driver(service)
 driver.get(URL)
 time.sleep(PAGE_LOAD_TIME) # wait for page to load
