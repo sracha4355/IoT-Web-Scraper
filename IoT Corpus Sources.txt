@@ -1,0 +1,28 @@
+https://iot.stackexchange.com/ -- IoT focused stack exchange
+https://www.researchgate.net/topic/Internet-of-Things/publications -- source of papers for structured sources, will need to filter for only English papers
+https://arxiv.org/search/cs?query=Internet+of+Things&searchtype=all&abstracts=show&order=-announced_date_first&size=50 -- second possible source of research papers for structured sources, may not be as good as research gate
+https://github.com/public-apis/public-apis -- API's that could possibly be used as sources, README has links, not all will be relevant, Index can be used to help filter for relevant APIs
+https://learn.microsoft.com/en-us/azure/iot-hub/ -- Documentation for Azure IoT hub
+https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html -- Documentation for AWS IoT Core
+https://www.intel.com/content/www/us/en/internet-of-things/overview.html -- Documentation for intel IoT (?)
+https://www.cnn.com/videos/business/2023/03/28/exp-decoded-show-05-internet-of-things-stewart-032512pseg1-cnni-business.cnn -- CNN IoT article
+https://www.nytimes.com/search?dropmab=false&lang=en&query=IoT&sections=Technology%7Cnyt%3A%2F%2Fsection%2F4224240f-b1ab-50bd-881f-782d6a3bc527&sort=best -- New York Times IoT articles
+https://arstechnica.com/gadgets/#gsc.tab=0&gsc.q=Internet%20of%20Things&gsc.sort= -- Ars Technica Internet of Things articles
+https://arstechnica.com/gadgets/#gsc.tab=0&gsc.q=IoT&gsc.sort= -- Ars Technica IoT articles, will most likely overlap with Ars Technica Internet of Things articles
+https://iot-analytics.com/ -- Reports and research on IoT, may not be useful
+https://iot-analytics.com/research-blog/ -- Section of IoT-analytics most likely to be useful
+https://www.iot-now.com/iot-insights/ -- Possible IoT articles
+https://iottechnews.com/news/ -- More possible IoT news articles
+https://medium.com/tag/internet-of-things -- Medium articles with Internet of Things tag
+https://www.ibm.com/topics/internet-of-things -- IBM What is IoT
+https://en.wikipedia.org/wiki/Internet_of_things -- IoT Wikipedia page
+https://aws.amazon.com/what-is/iot/ -- AWS What is IoT
+https://www.oracle.com/internet-of-things/ -- Oracle What is IoT
+https://www.cisco.com/c/en/us/solutions/internet-of-things/what-is-iot.html -- Cisco What is IoT
+https://github.com/microsoft/IoT-For-Beginners/tree/main -- Git Repo for course on IoT basics, not all items in repo will be useful
+
+Geeks for Geeks Intro to Iot Articles:
+https://www.geeksforgeeks.org/introduction-to-internet-of-things-iot-set-1/?ref=gcse_outind
+https://www.geeksforgeeks.org/internet-things-iot-2/
+https://www.geeksforgeeks.org/internet-things-iot/?ref=ml_lbp
+https://www.geeksforgeeks.org/understanding-things-in-internet-of-things/?ref=ml_lbp
