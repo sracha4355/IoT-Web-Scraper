@@ -42,7 +42,10 @@ json_output_filepath = "satvik_annotation.json"
 output_json = f'{os.getcwd()}/../scraped-data/{json_output_filepath}'
 output_json_file = f'{os.getcwd()}/../scraped-data/{json_output_filepath}'
 with open(output_json, 'r') as file:
-    output_json = json.loads(file.read())  
+    try:
+        output_json = json.loads(file.read())
+    except:
+        output_json = {}
 
 
 # In[ ]:
