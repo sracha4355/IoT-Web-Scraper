@@ -2,6 +2,7 @@
 import json
 import os
 import nltk
+from unidecode import unidecode
 from nltk import sent_tokenize
 
 nltk.download('punkt_tab')
@@ -28,7 +29,7 @@ for i in range(len(data)):
         sentences.append(
             {
                 'sentence_id' : j,
-                'text' : sentence
+                'text' : unidecode(sentence)
             }
         )
         j += 1
