@@ -79,14 +79,18 @@ while True:
             NER_categories = []
             TAGS = []
             tokenized = tokenizer(text)
-            print('Enter a NER category and a tag for each token (I-S, I, I-E, N) in the form category,tag. Example -> 0,N')
-            print(f'Here is the whole sentence for context: \n{text}')
+            print('Enter a NER category and a tag for each token (I-S, I, I-E, N) in the form category,tag. Example -> 0,N\n')
+
+            print(f'Here are the tokens for contedxt: \n {tokenized} \n')
+            for i, token in enumerate(tokenized):
+                print(i, ':', token)
+
             for i, token in enumerate(tokenized):
                 tag = input(f'{token}: ')
                 NER_category, tag = tag.split(",") 
                 NER_categories.append(NER_category)
                 TAGS.append(tag)
-            print('Are you satisfied with this')
+            print('\nAre you satisfied with this')
             print(f'NER_categories and TAGS for tokens: {NER_categories}')
             print(f'{NER_categories}\n{TAGS}')
 
