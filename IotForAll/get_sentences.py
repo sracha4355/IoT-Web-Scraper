@@ -26,6 +26,8 @@ for i in range(len(data)):
     sentences = []
     j = 0
     for sentence in split_text:
+        if sentence[0] == '\n':
+            sentence = sentence[1:]
         sentences.append(
             {
                 'sentence_id' : j,
