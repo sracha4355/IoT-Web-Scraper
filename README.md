@@ -13,8 +13,17 @@
 
  - IoT Corpus Sources.txt: Text file containing URLs of potential sources for the corpus
 
-### JSON Files
+### JSON Files 
+ - complete_annotations_v2.json: all the sentences of the corpus, cleaned for errors
+ - dev-split.json: dev set
+   
+ - train-split.json: train set
+   
+ - test-split.json: test set
 
+ - entity_span_{split-name}.json: json file containing calculations/lists needed for span calculations
+  
+   
  - bharg_and_satvik_anotation.json: The annotated sentences completed by Bharg and Satvik
 
  - chloe_annotation.json: The annotated sentences completed by Chloe
