@@ -42,3 +42,5 @@
  - scrape_iot_article_links.py: Scrape the text from the links in IoTForAllArticleLinks.JSON to produce IoTForAllArticleText.JSON
 
  - scraper.py: Scrape the links from https://www.iotforall.com/articles to produce IoTForAllArticleLinks.JSON
+
+ - metrics.py: Includes functions for calculating the span distinctiveness and boundary distinctiveness of a corpus.
